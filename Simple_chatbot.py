@@ -1,5 +1,7 @@
+# https://github.com/NakulLakhotia/Simple-Chatbot-using-NLTK
 # Simple chatbot- using NLTK Library.
 from nltk.chat.util import Chat, reflections
+
 
 QA = [
     [
@@ -9,6 +11,10 @@ QA = [
     [
         r"(what is your name ?|who are you ?)",
         ["My name is Rouge and I'm your friend, let's chat ?", ]
+    ],
+    [
+        r"(Yomune ?|Chamgei ?)",
+        ["Missing", ]
     ],
     [
         r"how are you ?",
