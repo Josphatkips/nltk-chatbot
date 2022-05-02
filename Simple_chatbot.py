@@ -1,4 +1,4 @@
-# https://github.com/NakulLakhotia/Simple-Chatbot-using-NLTK
+
 # Simple chatbot- using NLTK Library.
 from nltk.chat.util import Chat, reflections
 
@@ -10,7 +10,7 @@ QA = [
     ],
     [
         r"(what is your name ?|who are you ?)",
-        ["My name is Rouge and I'm your friend, let's chat ?", ]
+        ["My name is Y and I'm your friend, let's chat ?", ]
     ],
     [
         r"(Yomune ?|Chamgei ?)",
@@ -48,11 +48,11 @@ QA = [
     ],
     [
         r"(.*) (created you|made you) ?",
-        ["I am a result of Nakul's exploration of NLTK Library", ]
+        ["I am created by Yusnub", ]
     ],
     [
         r"(.*) (location|city) ?",
-        ['Gangtok, Sikkim', ]
+        ['kenya, nigeria', ]
     ],
     [
         r"how is weather in (.*)?",
@@ -103,7 +103,7 @@ QA = [
 
 
 def rouge():
-    print("Hi, I'm Rouge. Wanna chat? :) \nPlease type lowercase English language to start a conversation. Type quit to leave ")
+    print("Hi, I am a chatbot created by Yusnub. Wanna chat? :) \nPlease type lowercase English language to start a conversation. Type quit to leave ")
 
 
 chat = Chat(QA, reflections)

@@ -1,5 +1,10 @@
 # NLP-Project- Simple Chatbot using NLTK
 
+```
+pip install -r requirements.txt
+python Simple_chatbot.py
+```
+
 A chatbot  is a computer program or an artificial intelligence which conducts a conversation via auditory or textual methods.Some chatterbots use sophisticated natural language processing systems, but many simpler systems scan for keywords within the input, then pull a reply with the most matching keywords, or the most similar wording pattern, from a database
 
 NLTK has a module, nltk.chat, which simplifies building these engines by providing a generic framework.
